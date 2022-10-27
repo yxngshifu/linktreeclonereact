@@ -1,6 +1,6 @@
 import React from "react"
 
-const TextBanner =()=>{
+const TextBanner =props=>{
     const{
         title,
         text
