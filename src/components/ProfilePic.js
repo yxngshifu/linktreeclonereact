@@ -8,7 +8,8 @@ const ProfilePic =props=>{
 
  return(
 
-    <img style={{'borderRadius':'200'}}src={picture}/>
+    <img style={{'maxHeight':'275px','borderRadius':'200px','margin':'45px'}
+}src={picture}/>
  )
 
 }

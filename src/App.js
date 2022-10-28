@@ -1,15 +1,19 @@
 import React from "react"
 import LinkButton from "./components/LinkButton" 
 import TextBanner from "./components/TextBanner"
-import ProfilePic from "./components/ProfilePic";
+import ProfilePic from "./components/ProfilePic"
+import picture from "./IMG_0209.jpg"
 function App() {
   return (
-    <div>
+    <div style={{'textAlign':'center'}}>
+      <ProfilePic
+      picture={picture}
+      />
       <TextBanner
-      title='Yxng Shifu'
+      title='Yxng_Shifu'
       text='Web developer | cinematographer'
       />
-      <LinkButton
+      <lineButton
        name='Twitter Link'
        link='https://twitter.com/Yxng_shifu'/>
        <LinkButton
