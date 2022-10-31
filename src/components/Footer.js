@@ -3,7 +3,6 @@ import react from 'react'
 const Footer= props =>{
     const {
         text,
-        Footerpic
     }=props 
 
   

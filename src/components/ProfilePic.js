@@ -9,7 +9,7 @@ const ProfilePic =props=>{
  return(
 
     <img style={{'maxHeight':'275px','borderRadius':'200px','margin':'45px'}
-}src={picture}/>
+}src={picture} alt='profile pic'/>
  )
 
 }
