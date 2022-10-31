@@ -4,7 +4,6 @@ import TextBanner from "./components/TextBanner"
 import ProfilePic from "./components/ProfilePic"
 import picture from "./IMG_0209.jpg"
 import Footer from "./components/Footer"
-import Footerpic from './components/Vector.png'
 //Slack username: Yxng Shifu id=slack //
 
 
@@ -55,9 +54,7 @@ function App() {
        text='HNG Internship 9 Frontend Design Task'
        
        />
-       <Footer
-      Footerpic={Footerpic} id='footer__img'
-      />
+      
     </div>
     
     
