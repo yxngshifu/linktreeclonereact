@@ -4,7 +4,7 @@ const Footer= props =>{
     const {
         text,
         Footerpic
-    }=props
+    }=props 
 
   
 
@@ -18,8 +18,7 @@ const Footer= props =>{
     })
 
 return(
-    <img style={{'maxHeight':'275px','borderRadius':'200px','margin':'45px'}
-}src={Footerpic}/>,
+   
     <div>
       <p style={myStyles.Footer}>{text}</p>
     </div>
